@@ -1,0 +1,1 @@
+/home/jetbot/catkin_ws/devel/.private/hector_mapping/lib/pkgconfig/hector_mapping.pc
