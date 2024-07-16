@@ -1,23 +1,23 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/jetbot/catkin_ws/build/rplidar_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_236d3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_236d3.dir/build.make CMakeFiles/cmTC_236d3.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_de9cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_de9cc.dir/build.make CMakeFiles/cmTC_de9cc.dir/build
 make[1]: Entering directory '/home/jetbot/catkin_ws/build/rplidar_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_236d3.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_236d3.dir/CheckSymbolExists.c.o   -c /home/jetbot/catkin_ws/build/rplidar_ros/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_236d3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_236d3.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_236d3.dir/CheckSymbolExists.c.o  -o cmTC_236d3 
-CMakeFiles/cmTC_236d3.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_de9cc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_de9cc.dir/CheckSymbolExists.c.o   -c /home/jetbot/catkin_ws/build/rplidar_ros/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_de9cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de9cc.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_de9cc.dir/CheckSymbolExists.c.o  -o cmTC_de9cc 
+CMakeFiles/cmTC_de9cc.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x14): undefined reference to `pthread_create'
 CheckSymbolExists.c:(.text+0x18): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_236d3.dir/build.make:97: recipe for target 'cmTC_236d3' failed
-make[1]: *** [cmTC_236d3] Error 1
+CMakeFiles/cmTC_de9cc.dir/build.make:97: recipe for target 'cmTC_de9cc' failed
+make[1]: *** [cmTC_de9cc] Error 1
 make[1]: Leaving directory '/home/jetbot/catkin_ws/build/rplidar_ros/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_236d3/fast' failed
-make: *** [cmTC_236d3/fast] Error 2
+Makefile:126: recipe for target 'cmTC_de9cc/fast' failed
+make: *** [cmTC_de9cc/fast] Error 2
 
 File /home/jetbot/catkin_ws/build/rplidar_ros/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -37,20 +37,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/jetbot/catkin_ws/build/rplidar_ros/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_049f5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_049f5.dir/build.make CMakeFiles/cmTC_049f5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_4e4ce/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e4ce.dir/build.make CMakeFiles/cmTC_4e4ce.dir/build
 make[1]: Entering directory '/home/jetbot/catkin_ws/build/rplidar_ros/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_049f5.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_049f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_049f5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_049f5.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_049f5.dir/CheckFunctionExists.c.o  -o cmTC_049f5 -lpthreads 
+Building C object CMakeFiles/cmTC_4e4ce.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_4e4ce.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4e4ce
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e4ce.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_4e4ce.dir/CheckFunctionExists.c.o  -o cmTC_4e4ce -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_049f5.dir/build.make:97: recipe for target 'cmTC_049f5' failed
-make[1]: *** [cmTC_049f5] Error 1
+CMakeFiles/cmTC_4e4ce.dir/build.make:97: recipe for target 'cmTC_4e4ce' failed
+make[1]: *** [cmTC_4e4ce] Error 1
 make[1]: Leaving directory '/home/jetbot/catkin_ws/build/rplidar_ros/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_049f5/fast' failed
-make: *** [cmTC_049f5/fast] Error 2
+Makefile:126: recipe for target 'cmTC_4e4ce/fast' failed
+make: *** [cmTC_4e4ce/fast] Error 2
 
 
